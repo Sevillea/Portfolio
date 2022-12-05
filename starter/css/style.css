@@ -1,81 +1,34 @@
-* {
-  background-color: white;
+html{
+  background-color:bisque;
 }
 
-/* top nav */
+.nav-background {
+  background-color: grey;
+  padding-top:20px;
+}
 
-.name {
+ h1 {
+  font-size:90px;
   background-color: aqua;
+  color:grey;
+  font-family: system-ui;
+  width:fit-content;
   
-  
-}
-.top-nav-container {
-  background-color: aqua;
-  width:100%;
-  Margin: black solid 1px;
-  display:flex;
-  flex-direction:row;
-  align-items:flex-end;
-  justify-content:space-around;
-
-
 
 }
-.top-links {
-  display:flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  justify-content: space-evenly;
-}
-.about-me {
-  background-color: aqua;
-  border-bottom:solid;
-  padding:10px;
-  
-}
-
-.work {
-  background-color: aqua;
-  border-bottom:solid;
-  padding:10px;
-
-}
-
-.contact-me { 
-  background-color: aqua;
-  border-bottom:solid;
-  padding:10px;
+ a:hover {
+  color:blanchedalmond;
 } 
 
-
-
-body {
-  margin: 50px;
-  padding: 0;
-  width: 100%;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: blanchedalmond;
+.container {
+  padding-left: 1500px;
+  display:flex;
+  flex-direction:row;
+  align-content:flex-end;
+  justify-content: space-around;
+  color:aqua;
 }
 
-.hero-banner {
-  background-color:blanchedalmond;
-  
 
-}
 
-h1 {
-  font-size: 90px;
-}
 
-h2,
-h3,
-h4,
-h5,
-
-h6 {
-  margin: 50px;
-}
-
-p {
-  margin: 0;
-}
