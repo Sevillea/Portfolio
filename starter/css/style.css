@@ -65,6 +65,11 @@ html{
   color:aliceblue;
 }
 
+.breaker { 
+  background-image: url(/starter/images/02-hero-bg.jpg);
+  height: 500px;
+}
+
 /* Main About Me Section */
 
 .about-me-left {
@@ -80,3 +85,51 @@ h1 {
   font-family:sans-serif;
   padding-right:40px;
 }
+
+h2 {
+  font-size:40px;
+  float:right;
+  padding-top: 300px;
+  color:aliceblue
+  
+}
+
+.subtitle {
+  background-color:aqua;
+  padding-right: 200px
+
+}
+
+
+.about-me-main {
+  display:flex;
+  justify-content: center;
+  width:fit-content;
+  padding-left:520px;
+}
+
+.about-me-container{
+  display:flex;
+  flex-direction: row;
+  
+}
+
+/* This is the 'Work' section */
+
+.work-container {
+  display:flex;
+  flex-direction: row;
+}
+
+.work-aside {
+  padding-left: 300px;
+  border-right:solid red;
+  width:fit-content;
+  height: 600px;
+}
+
+.work-main-img {
+  background-image: url(/starter/images/02-portfolio-1.jpg);
+  width:fit-content;
+}
+
