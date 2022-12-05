@@ -63,7 +63,10 @@ body {
 
 }
 
-h1,
+h1 {
+  font-size: 90px;
+}
+
 h2,
 h3,
 h4,
