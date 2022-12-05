@@ -7,7 +7,7 @@ html{
   padding-top:20px;
 }
 
- h1 {
+ #main-title {
   font-size:90px;
   background-color: aqua;
   color:grey;
@@ -20,6 +20,8 @@ html{
   color:blanchedalmond;
 } 
 
+/*Top Nav Contents*/
+
 .container {
   padding-left: 1500px;
   display:flex;
@@ -27,8 +29,54 @@ html{
   align-content:flex-end;
   justify-content: space-around;
   color:aqua;
+  font-size:40px;
 }
 
 
+.about-me {
+  border-bottom:solid;
+}
 
+.about-me:hover {
+  color:aliceblue
+}
 
+.work {
+  border-bottom:solid;
+}
+
+.work:hover {
+  color:aliceblue;
+}
+
+.contact-me {
+  border-bottom:solid;
+}
+
+.contact-me:hover {
+  color:aliceblue;
+}
+
+.resume {
+  border-bottom:solid;
+}
+
+.resume:hover {
+  color:aliceblue;
+}
+
+/* Main About Me Section */
+
+.about-me-left {
+  padding-left: 300px;
+  border-right:solid red;
+  width:fit-content;
+  height: 300px;
+
+}
+
+h1 {
+  font-size:50px;
+  font-family:sans-serif;
+  padding-right:40px;
+}
