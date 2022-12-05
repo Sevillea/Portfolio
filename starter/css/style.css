@@ -1,12 +1,66 @@
 * {
-  box-sizing: border-box;
+  background-color: white;
 }
 
+/* top nav */
+
+.name {
+  background-color: aqua;
+  
+  
+}
+.top-nav-container {
+  background-color: aqua;
+  width:100%;
+  Margin: black solid 1px;
+  display:flex;
+  flex-direction:row;
+  align-items:flex-end;
+  justify-content:space-around;
+
+
+
+}
+.top-links {
+  display:flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+}
+.about-me {
+  background-color: aqua;
+  border-bottom:solid;
+  padding:10px;
+  
+}
+
+.work {
+  background-color: aqua;
+  border-bottom:solid;
+  padding:10px;
+
+}
+
+.contact-me { 
+  background-color: aqua;
+  border-bottom:solid;
+  padding:10px;
+} 
+
+
+
 body {
-  margin: 0;
+  margin: 50px;
   padding: 0;
+  width: 100%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
+  background-color: blanchedalmond;
+}
+
+.hero-banner {
+  background-color:blanchedalmond;
+  
+
 }
 
 h1,
@@ -14,8 +68,9 @@ h2,
 h3,
 h4,
 h5,
+
 h6 {
-  margin: 0;
+  margin: 50px;
 }
 
 p {
