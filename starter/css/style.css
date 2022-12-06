@@ -1,3 +1,4 @@
+
 html{
   background-color:bisque;
 }
@@ -70,16 +71,11 @@ html{
   height: 500px;
 }
 
-/* Main About Me Section */
-
-.about-me-left {
-  padding-left: 300px;
-  border-right:solid red;
-  width:fit-content;
-  height: 300px;
+.subtitle {
+  background-color:aqua;
+  padding-right: 200px
 
 }
-
 h1 {
   font-size:50px;
   font-family:sans-serif;
@@ -90,15 +86,23 @@ h2 {
   font-size:40px;
   float:right;
   padding-top: 300px;
-  color:aliceblue
+  color:aliceblue 
+}
   
+
+/* Main About Me Section */
+
+.about-me-left {
+  padding-left: 300px;
+  border-right:solid red;
+  width:fit-content;
+  height: 300px;
+
 }
 
-.subtitle {
-  background-color:aqua;
-  padding-right: 200px
 
-}
+
+
 
 
 .about-me-main {
@@ -132,4 +136,6 @@ h2 {
   background-image: url(/starter/images/02-portfolio-1.jpg);
   width:fit-content;
 }
+
+ 
 
