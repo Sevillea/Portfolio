@@ -67,7 +67,7 @@ html{
 }
 
 .breaker { 
-  background-image: url(/starter/images/02-hero-bg.jpg);
+  background-image: url(/images/02-hero-bg.jpg);
   height: 500px;
 }
 
@@ -138,7 +138,7 @@ h2 {
 }
 
 .sr-background {
-  background-image: url(/starter/images/02-portfolio-4.jpg);
+  background-image: url(/images/02-portfolio-4.jpg);
   display:flex;
   height:600px;
   width: 1790px;
@@ -180,7 +180,7 @@ h2 {
 }
 
 .led-background {
-  background-image: url(/starter/images/02-portfolio-1.jpg);
+  background-image: url(/images/02-portfolio-1.jpg);
   display:flex;
   height:300px;
   width: 800px;
@@ -193,7 +193,7 @@ h2 {
 /* This section is for the calculator project */
 
 .calculator-background {
-background-image: url(/starter/images/02-portfolio-2.jpg);
+background-image: url(/images/02-portfolio-2.jpg);
 display:flex;
   height:300px;
   width: 800px;
@@ -221,7 +221,7 @@ display:flex;
 }
 
 .pp-background {
-  background-image: url(/starter/images/02-portfolio-3.jpg);
+  background-image: url(/images/02-portfolio-3.jpg);
   display:flex;
   height:300px;
   width: 800px;
@@ -240,7 +240,7 @@ display:flex;
 }
 
 .run-buddy-background{
-  background-image: url(/starter/images/02-run-buddy.jpg);
+  background-image: url(/images/02-run-buddy.jpg);
   display:flex;
   height:300px;
   width: 800px;
