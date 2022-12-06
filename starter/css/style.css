@@ -118,6 +118,8 @@ h2 {
 .work-container {
   display:flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .work-aside {
@@ -128,8 +130,10 @@ h2 {
 }
 
 .work-main-img {
+  display:flex;
   background-image: url(/starter/images/02-portfolio-1.jpg);
   width:fit-content;
+  float:right;
 }
 
  
