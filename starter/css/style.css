@@ -131,26 +131,193 @@ h2 {
   padding-left: 318px;
   border-right:solid red;
   width:fit-content;
-  height: 600px;
+  height: 1376px;
   float:left;
   
 }
 
-.work-main-img {
+.sr-background {
+  background-image: url(/starter/images/02-portfolio-4.jpg);
   display:flex;
-  justify-content:flex-end;
-  background-image: url(/starter/images/02-portfolio-1.jpg);
   height:600px;
   width: 1790px;
-  float:right;  
-  
+  margin-right:5px;
+  margin-left: 15px;
+  border: 4mm ridge aqua;
 }
 
 .surf-report {
+  background-color: aqua;
   display:flex;
-  flex-direction:column;
-  align-items:flex-end;
+  width:fit-content;
+  font-size: 40px;
+  height:auto;
+  margin-top:auto;
+  margin-bottom:20px; 
+
+}
+
+.box {
+  display:flex;
+  align-items: flex-start;
+  margin-top:60px;
+  margin-right:15px;
+}
+
+/* . This section is for the LED wall section */
+
+.led-wall {
+  background-color: aqua;
+  width:fit-content;
+  font-size: 40px;
+  height:auto;
+  margin-top:auto;
+  margin-bottom:20px;
+  
+  
+  
+}
+
+.led-background {
+  background-image: url(/starter/images/02-portfolio-1.jpg);
+  display:flex;
+  height:300px;
+  width: 800px;
+  float:left; 
+  margin-left:510px;
+  border: 4mm ridge aqua;
   
 }
  
+/* This section is for the calculator project */
+
+.calculator-background {
+background-image: url(/starter/images/02-portfolio-2.jpg);
+display:flex;
+  height:300px;
+  width: 800px;
+  margin-left:510px;
+  border: 4mm ridge aqua;
+}
+
+.calculator {
+  background-color: aqua;
+  width:fit-content;
+  font-size: 40px;
+  height:auto;
+  margin-top:auto;
+  margin-bottom:20px;
+
+}
+
+/* This section is for the second row of 2 projects*/
+
+.box2 {
+  display:flex;
+  align-items: flex-start;
+  margin-top:60px;
+  margin-right:15px;
+}
+
+.pp-background {
+  background-image: url(/starter/images/02-portfolio-3.jpg);
+  display:flex;
+  height:300px;
+  width: 800px;
+  margin-left:510px;
+  border: 4mm ridge aqua;
+
+}
+
+.pp {
+  background-color: aqua;
+  width:fit-content;
+  font-size: 40px;
+  height:auto;
+  margin-top:auto;
+  margin-bottom:20px;
+}
+
+.run-buddy-background{
+  background-image: url(/starter/images/02-run-buddy.jpg);
+  display:flex;
+  height:300px;
+  width: 800px;
+  margin-left:510px;
+  border: 4mm ridge aqua;
+  
+
+}
+
+.run-buddy {
+  background-color: aqua;
+  width:fit-content;
+  font-size: 40px;
+  height:auto;
+  margin-top:auto;
+  margin-bottom:20px;
+}
+
+.h3 {
+  font-size: 20px;
+  text-align: left;
+}
+
+/* FOOTER */
+
+footer {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-me2 {
+  font-size:60px;
+  padding-right:65px;
+  padding-left:200px;
+  margin-top:60px;
+  border-right: solid red;
+  
+}
+
+.email {
+  border-bottom:solid black;
+  margin-left:300px;
+  font-size:30px;
+}
+
+.email:hover {
+    color:aliceblue
+  }
+
+.github {
+  border-bottom:solid black;
+  margin-left:200px;
+  font-size:30px;
+
+}
+
+.github:hover{
+  color:aliceblue;
+}
+
+.spotify {
+  border-bottom:solid black;
+  margin-left:200px;
+  font-size:30px;
+
+}
+
+.spotify:hover{
+  color:aliceblue;
+}
+
+.twitter {
+  border-bottom:solid black;
+  margin-left:200px;
+  font-size:30px;
+}
+.twitter:hover{
+  color:aliceblue;
+}
 
