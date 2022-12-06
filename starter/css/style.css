@@ -117,12 +117,12 @@ h2 {
 
 /* This is the 'Work' section */
 
-.work-container {
+.work-container
+ {
   display:flex;
-  flex-direction:row;
-  justify-content: center;
   margin:10px;
   height:600px;
+  
   }
 
 .work-aside {
@@ -130,14 +130,18 @@ h2 {
   border-right:solid red;
   width:fit-content;
   height: 600px;
+  float:left;
 }
 
 .work-main-img {
   display:flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   background-image: url(/starter/images/02-portfolio-1.jpg);
   height:600px;
+  width: 1790px;
   border:solid 5px;
+  float:right;
+  
   
 }
  
