@@ -1,6 +1,6 @@
 
 html{
-  background-color:bisque;
+  background-color:grey;
 }
 
 .nav-background {
@@ -80,6 +80,7 @@ h1 {
   font-size:50px;
   font-family:sans-serif;
   padding-right:40px;
+  color:aqua;
 }
 
 h2 {
@@ -143,7 +144,7 @@ h2 {
   width: 1790px;
   margin-right:5px;
   margin-left: 15px;
-  border: 4mm ridge aqua;
+  border: 2mm ridge black;
 }
 
 .surf-report {
@@ -185,7 +186,7 @@ h2 {
   width: 800px;
   float:left; 
   margin-left:510px;
-  border: 4mm ridge aqua;
+  border: 2mm ridge black;
   
 }
  
@@ -197,7 +198,7 @@ display:flex;
   height:300px;
   width: 800px;
   margin-left:510px;
-  border: 4mm ridge aqua;
+  border: 2mm ridge black;
 }
 
 .calculator {
@@ -225,7 +226,7 @@ display:flex;
   height:300px;
   width: 800px;
   margin-left:510px;
-  border: 4mm ridge aqua;
+  border: 2mm ridge black;
 
 }
 
@@ -244,7 +245,7 @@ display:flex;
   height:300px;
   width: 800px;
   margin-left:510px;
-  border: 4mm ridge aqua;
+  border: 2mm ridge black;
   
 
 }
@@ -321,3 +322,6 @@ footer {
   color:aliceblue;
 }
 
+p {
+  font-size:40px;
+}
