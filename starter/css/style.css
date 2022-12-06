@@ -109,7 +109,9 @@ h2 {
 
 .about-me-container{
   display:flex;
-  flex-direction: row;
+  flex-direction:row;
+  padding-top:10px;
+}
   
 }
 
@@ -118,23 +120,22 @@ h2 {
 .work-container {
   display:flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
+  margin:10px;
+  height:600px;
+  }
 
 .work-aside {
-  padding-left: 315px;
+  padding-left: 318px;
   border-right:solid red;
   width:fit-content;
   height: 600px;
 }
 
 .work-main-img {
-  display:flex;
   background-image: url(/starter/images/02-portfolio-1.jpg);
-  width:fit-content;
-  float:right;
+  margin:auto;
+  height:600px;
+  border:solid 5px;
 }
-
  
 
