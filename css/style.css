@@ -6,6 +6,7 @@ Font-size:40px;
 
 html {
   background-color:grey;
+  max-width: max-content;
 }
 
 .nav-background {
@@ -72,8 +73,9 @@ html {
 }
 
 .breaker { 
-  background-image: url(/images/02-hero-bg.jpg);
+  background-image: url(../images/02-hero-bg.jpg);
   height: 500px;
+  width:auto;
 }
 
 .subtitle {
