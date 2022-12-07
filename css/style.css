@@ -72,6 +72,7 @@ html {
   color:aliceblue;
 }
 
+/* This section is for the Hero Image */
 .breaker { 
   background-image: url(../images/02-hero-bg.jpg);
   height: 500px;
@@ -83,6 +84,7 @@ html {
   padding-right: 200px
 
 }
+
 h1 {
   font-size:50px;
   font-family:sans-serif;
@@ -104,6 +106,7 @@ h2 {
   display:flex;
   flex-direction:row;
   padding-top:50px;
+  margin-right:410px;
 }
 
 .about-me-left {
