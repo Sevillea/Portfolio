@@ -143,7 +143,7 @@ h2 {
 }
 
 .sr-background {
-  background-image: url(/images/02-portfolio-4.jpg);
+  background-image: url(../images/02-portfolio-4.jpg);
   display:flex;
   height:600px;
   width: 1790px;
