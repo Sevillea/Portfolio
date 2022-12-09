@@ -1,8 +1,3 @@
-@media all (min-width: 1024px) adnd (max-width:1280px){
-H1 {
-Font-size:40px;
-}
-}
 
 html {
   background-color:grey;
@@ -73,6 +68,7 @@ html {
 }
 
 /* This section is for the Hero Image */
+
 .breaker { 
   background-image: url(../images/02-hero-bg.jpg);
   height: 500px;
