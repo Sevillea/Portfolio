@@ -4,9 +4,20 @@ html {
   max-width: max-content;
 }
 
-.nav-background {
+.main-nav {
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-between;
   background-color: grey;
   padding-top:20px;
+}
+.nav-row {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1000px;
+  color:aqua;
+  font-size:40px;
 }
 
  #main-title {
@@ -14,57 +25,10 @@ html {
   background-color: aqua;
   color:grey;
   font-family: system-ui;
-  width:fit-content;
-  
-
 }
+
  a:hover {
   color:blanchedalmond;
-} 
-
-/*Top Nav Contents*/
-
-.row {
-  padding-left: 1500px;
-  display:flex;
-  flex-direction:row;
-  align-content:flex-end;
-  justify-content: space-around;
-  color:aqua;
-  font-size:40px;
-}
-
-
-.about-me {
-  border-bottom:solid;
-}
-
-.about-me:hover {
-  color:aliceblue
-}
-
-.work {
-  border-bottom:solid;
-}
-
-.work:hover {
-  color:aliceblue;
-}
-
-.contact-me {
-  border-bottom:solid;
-}
-
-.contact-me:hover {
-  color:aliceblue;
-}
-
-.resume {
-  border-bottom:solid;
-}
-
-.resume:hover {
-  color:aliceblue;
 }
 
 /* This section is for the Hero Image */
