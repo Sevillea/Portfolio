@@ -1,327 +1,152 @@
 
-html {
-  background-color:grey;
-  max-width: max-content;
-}
 
-.main-nav {
-  display:flex;
-  flex-direction: row;
-  align-items:center;
-  justify-content: space-between;
-  background-color: grey;
-  padding-top:20px;
-}
-.nav-row {
-  display: flex;
-  justify-content: space-around;
-  margin-left: 1000px;
-  color:aqua;
-  font-size:40px;
-}
 
- #main-title {
-  font-size:90px;
-  background-color: aqua;
-  color:grey;
-  font-family: system-ui;
-}
-
- a:hover {
-  color:blanchedalmond;
-}
-
-/* This section is for the Hero Image */
-
-.breaker { 
-  background-image: url(../images/02-hero-bg.jpg);
-  height: 500px;
+.container {
+  display:grid;
+  grid-template-rows: 7, 1fr;
+  grid-template-columns: 4, 1fr;
+  grid-gap:10px;
   width:auto;
+  grid-template-areas: 
+  "header nav nav nav"
+  "breaker breaker breaker breaker"
+  "aboutMe-left aboutMe-right aboutMe-right aboutMe-right"
+  "projects-left projects-1 projects-1 projects-1"
+  "projects-left projects-2 projects-3"
+  "projects-left projects-4 projects-5"
+  "footerLeft footerRight footerRight footerRight";
+}
+.header {
+  grid-column: span 2;
 }
 
-.subtitle {
-  background-color:aqua;
-  padding-right: 200px
-
+.header, .nav {
+  height:100px;
+  background-color: grey;
 }
 
-h1 {
-  font-size:50px;
-  font-family:sans-serif;
-  padding-right:40px;
-  color:aqua;
-}
-
-h2 {
-  font-size:40px;
-  float:right;
-  padding-top: 300px;
-  color:aliceblue 
-}
-  
-
-/* Main About Me Section */
-
-.about-me-whole {
+.nav-title {
   display:flex;
-  flex-direction:row;
-  padding-top:50px;
-  margin-right:410px;
-}
-
-.about-me-left {
-  padding-left: 309px;
-  border-right:solid red;
-  width:fit-content;
-  height: 300px;
-
-}
-
-.about-me-main {
-  width:fit-content;
-  margin:10px;
-  float:left;
-}
-
-
-  
-
-
-/* This is the 'Work' section */
-
-.work-whole
- {
-  display:flex;
-  margin:10px;
-  height:600px;
-  padding-top:60px;
-  
-  }
-
-.work-aside {
-  padding-left: 318px;
-  border-right:solid red;
-  width:fit-content;
-  height: 1376px;
-  float:left;
-  
-}
-
-.sr-background {
-  background-image: url(../images/02-portfolio-4.jpg);
-  display:flex;
-  height:600px;
-  width: 1790px;
-  margin-right:5px;
-  margin-left: 15px;
-  border: 2mm ridge black;
-}
-
-.surf-report {
-  background-color: aqua;
-  display:flex;
-  width:fit-content;
-  font-size: 40px;
-  height:auto;
-  margin-top:auto;
-  margin-bottom:20px; 
-
-}
-
-.box {
-  display:flex;
-  align-items: flex-start;
-  margin-top:60px;
-  margin-right:436px;
-}
-
-/* . This section is for the LED wall section */
-
-.led-wall {
-  background-color: aqua;
-  width:fit-content;
-  font-size: 40px;
-  height:auto;
-  margin-top:auto;
-  margin-bottom:20px;
-  
-  
-  
-}
-
-.led-background {
-  background-image: url(../images/02-portfolio-1.jpg);
-  display:flex;
-  height:300px;
-  width: 800px;
-  float:left; 
-  margin-left:510px;
-  border: 2mm ridge black;
-  
-}
- 
-/* This section is for the calculator project */
-
-.calculator-background {
-background-image: url(../images/02-portfolio-2.jpg);
-display:flex;
-  height:300px;
-  width: 800px;
-  margin-left:510px;
-  border: 2mm ridge black;
-}
-
-.calculator {
-  background-color: aqua;
-  width:fit-content;
-  font-size: 40px;
-  height:auto;
-  margin-top:auto;
-  margin-bottom:20px;
-
-}
-
-/* This section is for the second row of 2 projects*/
-
-.box2 {
-  display:flex;
-  align-items: flex-start;
-  margin-top:60px;
-  margin-right:436px;
-}
-
-.pp-background {
-  background-image: url(../images/02-portfolio-3.jpg);
-  display:flex;
-  height:300px;
-  width: 1500px;
-  margin-left:510px;
-  border: 2mm ridge black;
-
-}
-
-.pp {
-  background-color: aqua;
-  width:fit-content;
-  font-size: 40px;
-  height:auto;
-  margin-top:auto;
-  margin-bottom:20px;
-}
-
-.run-buddy-background{
-  background-image: url(../images/02-run-buddy.jpg);
-  display:flex;
-  height:300px;
-  width: 1500px;
-  margin-left:510px;
-  border: 2mm ridge black;
-  
-
-}
-
-.run-buddy {
-  background-color: aqua;
-  width:fit-content;
-  font-size: 40px;
-  height:auto;
-  margin-top:auto;
-  margin-bottom:20px;
-}
-
-.h3 {
-  font-size: 20px;
-  text-align: left;
-}
-
-/* FOOTER */
-
-footer {
-  display:flex;
-  flex-direction: row;
   align-items: center;
+  background-color: aliceblue;
+  width:300px;
+  font-size:50px;
 }
 
-.contact-me2 {
-  font-size:60px;
-  padding-right:65px;
-  padding-left:200px;
-  margin-top:60px;
+.nav {
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+}
+
+
+.breaker {
+  grid-column:span 3;
+  height:300px;
+  background-image: url(/images/02-hero-bg.jpg);
+}
+
+/* about me section START */
+
+.aboutMe-left, .aboutMe-right{
+  height: 200px;
+
+}
+
+.aboutMe-left {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding-right:10px;
+  grid-row: span 1;
   border-right: solid red;
-  
 }
 
-.email {
-  border-bottom:solid black;
-  margin-left:300px;
-  font-size:30px;
-}
-
-.email:hover {
-    color:aliceblue
-  }
-
-.github {
-  border-bottom:solid black;
-  margin-left:200px;
-  font-size:30px;
-
-}
-
-.github:hover{
-  color:aliceblue;
-}
-
-.spotify {
-  border-bottom:solid black;
-  margin-left:200px;
-  font-size:30px;
-
-}
-
-.spotify:hover{
-  color:aliceblue;
-}
-
-.twitter {
-  border-bottom:solid black;
-  margin-left:200px;
-  font-size:30px;
-}
-.twitter:hover{
-  color:aliceblue;
+.aboutMe-right {
+  grid-column:span 2;
 }
 
 p {
-  font-size:40px;
+  font-size: 30px;
+  overflow: auto;
 }
 
-.box3 {
+/* Projects START  */
+
+.projects-left {
+  grid-row: span 3;
+  grid-column:span 1;
   display:flex;
   align-items: center;
+  justify-content: center;
+  padding-right:10px;
+  border-right:solid red;
+}
+
+.projects-1 {
+  display:flex;
+  grid-column:span 2;
+  background-image: url(../images/02-portfolio-4.jpg); 
+  height:600px;
+}
+
+h3 {
+  display:flex;
+  align-items: flex-end;
+  background-color:white;
+  width:fit-content;
+  height:fit-content;
+  font-size: 30px;
+  
+}
+
+.projects-2 {
+  background-image: url(../images/02-portfolio-1.jpg);
+  height:300px;
+}
+
+.projects-3 {
+  background-image:url(../images/02-portfolio-2.jpg);
+
+}
+
+.projects-4 {
+  background-image: url(../images/02-portfolio-3.jpg);
+  height:300px;
+}
+
+.projects-5 {
+  background-image: url(../images/02-run-buddy.jpg);
+
+}
+
+/* This is the FOOTER section */
+
+.footerLeft {
+  border-right:solid red;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding-right:10px;
+  height:200px;
+}
+
+.footerRight {
+  display:flex;
   justify-content: space-around;
+  align-items: center;
+  grid-column:span 2;
+  
 }
 
-/* Media Queries */
+#spotify {
+  height:30px;
+  padding-right:15px;
+}
 
-@media (max-width: 480px) {
-  .text {
-    font-size: 16px;
-  }
+a {
+  font-size: 25px;
+}
 
-  .img {
-    height:auto;
-    width:auto;
-  }
  
-}
-@media (max-width: 1024px) {
-  .text {
-    font-size:auto;
-  }
-
-  .box .box2 .row {
-    height: auto;
-    width: auto;
-  }
-}
+  

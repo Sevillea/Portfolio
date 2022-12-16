@@ -4,8 +4,9 @@ A portfolio of deployed web applications
 
 
 
-This portfolio began with starter code provided as a template to build from courtesy of the Bootcamp.
-It showcases varying projects wither underway or upcoming as part of my learning as a web-developer. 
+This portfolio began with starter code provided as a template to build from courtesy of the Bootcamp. However, I chose to build my html and css from scratch and so I did away with the starter code, for better or for worse...
+
+This portfolio showcases varying projects whether underway or upcoming as part of my learning as a web-developer. I have included some 'coming soon' titles to projects that will eventuall be filled with content.
 
 
 
@@ -15,19 +16,19 @@ It showcases varying projects wither underway or upcoming as part of my learning
 
 
 
-:one: Surf Report
+:one: HoriSEOn Digital Marketing Project
 
 
-:two: LED Wall app 
+:two: Bootstrap Portfolio. A portfolio build using Bootstrap code.
 
 
-:three: Calculator app
+:three: Coming Soon!
 
 
-:four: Pastel Puzzels app
+:four: Coming Soon!
 
 
-:five: Run Buddy app
+:five: Coming Soon!
 
 
 
