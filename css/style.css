@@ -139,10 +139,11 @@ h3 {
   
 }
 
-#spotify {
+#spotify, #github, #email, #twitter {
   height:30px;
   padding-right:15px;
 }
+
 
 a {
   font-size: 25px;
