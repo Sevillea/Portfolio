@@ -1,5 +1,9 @@
 
 
+html {
+  background-color: #52111e;
+
+}
 
 .container {
   display:grid;
@@ -20,6 +24,10 @@
   grid-column: span 2;
 }
 
+h1 {
+  color: white;
+}
+
 .header, .nav {
   height:100px;
   background-color: grey;
@@ -29,8 +37,12 @@
   display:flex;
   align-items: center;
   background-color: aliceblue;
-  width:300px;
+  width:fit-content;
   font-size:50px;
+}
+
+#adam-seville {
+  color: #52111e;
 }
 
 .nav {
@@ -69,6 +81,11 @@
 p {
   font-size: 30px;
   overflow: auto;
+  color: white;
+}
+
+h2 {
+  color:#52111e;
 }
 
 /* Projects START  */
@@ -145,8 +162,13 @@ h3 {
 }
 
 
-a {
+a{
   font-size: 25px;
+  color: white;
+}
+
+a:hover {
+  color: green;
 }
 
  
